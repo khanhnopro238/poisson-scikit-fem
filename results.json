@@ -1,0 +1,72 @@
+{
+  "source": "https://scikit-fem.readthedocs.io/en/stable/gettingstarted.html",
+  "versions": {
+    "python": "3.12.8",
+    "scikit-fem": "12.0.2",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "primary_case": {
+    "refinement_level": 3,
+    "triangles": 128,
+    "nodes": 81,
+    "degrees_of_freedom": 81,
+    "boundary_nodes": 32,
+    "integrated_squared_error": 1.069066819861505e-06,
+    "l2_error": 0.0010339568752426307,
+    "relative_l2_error_percent": 4.081898130572507,
+    "max_boundary_value_abs": 0.0,
+    "relative_linear_system_residual": 1.2740046105804176e-15,
+    "max_computed_value": 0.05001756208650824,
+    "max_exact_value": 0.05066059182116889
+  },
+  "mesh_convergence": [
+    {
+      "refinement_level": 3,
+      "triangles": 128,
+      "nodes": 81,
+      "degrees_of_freedom": 81,
+      "boundary_nodes": 32,
+      "integrated_squared_error": 1.069066819861505e-06,
+      "l2_error": 0.0010339568752426307,
+      "relative_l2_error_percent": 4.081898130572507,
+      "max_boundary_value_abs": 0.0,
+      "relative_linear_system_residual": 1.2740046105804176e-15,
+      "max_computed_value": 0.05001756208650824,
+      "max_exact_value": 0.05066059182116889
+    },
+    {
+      "refinement_level": 4,
+      "triangles": 512,
+      "nodes": 289,
+      "degrees_of_freedom": 289,
+      "boundary_nodes": 64,
+      "integrated_squared_error": 6.942088679844736e-08,
+      "l2_error": 0.00026347843706544063,
+      "relative_l2_error_percent": 1.0401711768212873,
+      "max_boundary_value_abs": 0.0,
+      "relative_linear_system_residual": 6.351389208660995e-15,
+      "max_computed_value": 0.05049833352198376,
+      "max_exact_value": 0.05066059182116889,
+      "l2_reduction_factor": 3.924256143153851
+    },
+    {
+      "refinement_level": 5,
+      "triangles": 2048,
+      "nodes": 1089,
+      "degrees_of_freedom": 1089,
+      "boundary_nodes": 128,
+      "integrated_squared_error": 4.381341445803083e-09,
+      "l2_error": 6.619170224282711e-05,
+      "relative_l2_error_percent": 0.26131436630856114,
+      "max_boundary_value_abs": 0.0,
+      "relative_linear_system_residual": 3.1861187717171154e-14,
+      "max_computed_value": 0.050619933120792215,
+      "max_exact_value": 0.05066059182116889,
+      "l2_reduction_factor": 3.9805357490106332
+    }
+  ],
+  "checks_passed": true,
+  "error_note": "The tutorial value 1.069e-6 is the integrated squared error; take its square root for the L2 norm."
+}
